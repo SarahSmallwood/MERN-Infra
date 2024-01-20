@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { getUser } from './utilities/users-service';
 import './App.css';
 //pages
 import AuthPage from './pages/AuthPage/AuthPage';

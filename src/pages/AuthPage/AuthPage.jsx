@@ -7,8 +7,8 @@ export default function AuthPage({ setUser }) {
   return (
     <main>
       <div>
-        <h1>Welcome Explorers!</h1>
-        <h2>Login In or Sign Up to View the World</h2>
+        <h1>Welcome!</h1>
+        <h2>Login In or Sign Up to Continue</h2>
         <button
           onClick={() => {
             setShowLogin(!showLogin);
